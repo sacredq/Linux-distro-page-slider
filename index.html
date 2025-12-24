@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel = "stylesheet" href = "style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+        <title>Linux Distro</title>
+    </head>
+    <body>
+        <div class = "container">
+            <div class = "pages">
+                <input type = "radio" id = "arch" name = "distro" checked>
+                <input type = "radio" id = "kali" name = "distro">
+                <input type = "radio" id = "mint" name = "distro">
+
+                <div class = "opt">
+                    <label for = "arch"></label>
+                    <label for = "kali"></label>
+                    <label for = "mint"></label>
+                </div>
+
+                <div class = "wrapper">
+                    <div class = "box">
+                        <div class = "content">
+                            <div class = "distro_image">
+                                <img src = "archlinux-logo-dark-90dpi.png">
+                            </div>
+
+                            <h2>Arch Linux</h2>
+
+                            <p>Arch Linux is a lightweight and flexible distribution designed for advanced users. It follows a rolling release model and gives you full control over what gets installed. Arch is known for its simplicity, speed, and strong community documentation.</p>
+                            <button class = "btn">Install Arch x64 Now!</button>
+                        </div>
+                    </div>
+
+                    <div class = "box">
+                        <div class = "content">
+                            <div class = "distro_image">
+                                <i class="fa-brands fa-linux"></i>
+                            </div>
+
+                            <h2>Kali Linux</h2>
+                            <p>Kali Linux is a security-focused distribution used for penetration testing and ethical hacking. It comes with many preinstalled tools for cybersecurity professionals. Kali is not recommended for daily use or beginners.</p>
+                            <button class = "btn">Install Kali Now!</button>
+                        </div>
+                    </div>
+
+                    <div class = "box">
+                        <div class = "content">
+                            <div class = "distro_image">
+                                <i class="fa-brands fa-ubuntu"></i>
+                            </div>
+
+                            <h2>Ubuntu Linux</h2>
+                            <p>Ubuntu Linux is a beginner-friendly and stable distribution based on Debian. It is widely used for daily work, programming, and servers. Ubuntu has strong community support and regular updates.</p>
+                            <button class = "btn">Install Ubuntu Now!</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
